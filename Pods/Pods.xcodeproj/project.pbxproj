@@ -1,0 +1,936 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00338290BE40C268B933492B4D664263 /* Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F24B98A97000256B0682C1E1959CE08 /* Types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		027CB20F95178B0B4BE9D8F8958DF0D2 /* rawread.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9B1841AAEE6B7A968A788B8E76B97704 /* rawread.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		0290900E3B07A2A39C03BE2B3756754F /* Lzma2Dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C2B3ECD93A96DF087C41F627BD52759 /* Lzma2Dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02F4CF5E6F72FCFE72906ACB5C8E841E /* LzHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C1FD9C616E440DC66F24D64FC97DF6 /* LzHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		056B0D4DA526BB418DB7CE2DB3474129 /* model.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E54879691B2083EF8291B58B42EF4D51 /* model.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B6F28BC4F98F25B5EFA9E4B7BCDA36B /* 7zAlloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE09778BE1E4D04CDFC62BB766C4C01 /* 7zAlloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D2FDC4E779FF3BC55A8BD3B8C9C32CE /* 7zVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = C26AB5F310756A2709F59F814778C80A /* 7zVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E7AF11E5EB25A8FB0E006981E0AD15C /* 7zBuf.h in Headers */ = {isa = PBXBuildFile; fileRef = D25E079D6D67E8CD0C4F859A3482EAFD /* 7zBuf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F2E41A8584435FA95A3127CB4A180F9 /* ulinks.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 863476FD2922E491E37D498ABB504F41 /* ulinks.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		11DFA8D0D8557882470CA1A82E4318B3 /* Ppmd7.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D68934B035A7C75413E3A14F9FAD7 /* Ppmd7.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		124B5C38E5438215363E7688549455EB /* getbits.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 69827CBEAD26AB4A9007A41978381E5B /* getbits.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		12C8190521A976B3D684E07681B25E88 /* Pods-RaR解压-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 415FF131A04BDED92B3CE64ACE521C49 /* Pods-RaR解压-dummy.m */; };
+		16A1096070CD4E5BB956025BC632FF56 /* volume.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F82A2CB78A710EA047DF83F0200263C3 /* volume.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CDA49AD72EA6E9F8067CA82C9E9EC2F /* pathfn.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 71A0D5924EF1364A154B770C8CDBF3C0 /* pathfn.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CF54A624B919FC22BC06D8B712B051D /* RARExtractException.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9CCD87F70DC95385AD10DBDA7B4E07 /* RARExtractException.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1D7BA005B48C5399DC762114BFD96C2F /* system.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 080DA54119FEC16B79AE3F4A4A6E97D9 /* system.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DCAA3DAD050E2B98865DC06571ED844 /* file.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A9BCBE74C5E2D3EDCB593BD5D5AE80E5 /* file.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		20014097F3B3BFD44C165C681F65BA2F /* Lzma2Dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B62322C9A61ACC010B967BC1831779E /* Lzma2Dec.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		211F0E20B572734998C4B67AFB3F5439 /* unicode.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 79B145C6F9C42C6E2D7620D97CF0DABA /* unicode.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		28286100CB24B93B13672EEE1EBB81A9 /* 7zFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EDAE8AC7CA7FD69640FB1A221F1650 /* 7zFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A2F07CC79CB5432B3DC2FE8D36D972C /* match.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7AE13864B4E6842A4C179E805FB84646 /* match.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		342BD46ED3CCF2844F53BE18CC8D7A0C /* crc.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FFCF32CC0DCE81D57F11BFD302F6B15D /* crc.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		37D31A3A08476D5DBF135DA35027C01F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		39B5324B168756D24512BC425991D938 /* rijndael.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D48B0E11866EC56D44DD73110616A3F3 /* rijndael.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		39E0F2B614E3AD49A0EA367DF75E331A /* Ppmd8Dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 14C32DA3D28758366980AFC61D5BD3C7 /* Ppmd8Dec.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		40781FB6E5D93F88EA28BB06966F8DF4 /* strlist.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 74DBBAEA589EADCA4B700323D773E0B5 /* strlist.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		42F72E0ECCB66EEA0F86B8B86174638E /* 7zDec.c in Sources */ = {isa = PBXBuildFile; fileRef = AC7E0225797CA60BAAC7CB75A6F0B2DB /* 7zDec.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		450E7DE87B925A4C6626543E8796701E /* filestr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0EE9E5D0B48EB74CC58E7F76E92C6DA6 /* filestr.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4C95974B9F7A5DE5AAE66CB20C0CE6 /* encname.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 13145191D2F2CE01CD0B646C4E40E194 /* encname.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		50051E87F04D47025E3BE04AC2524C36 /* recvol.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B2D0FA85F3221A8C286C620EE20E964E /* recvol.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		5076AF16B70DF81D5C841C07F129AC6D /* 7z.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3D4C66DFC4A32FA3E3B5C36339BCC5 /* 7z.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		517EC6F1980737BB1AD4B612CE51FDD7 /* 7zFile.c in Sources */ = {isa = PBXBuildFile; fileRef = BBA37833BA19E3973F9D470F59699AC4 /* 7zFile.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5264AB5154F32C96D6061C5AB2C8E9F8 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B36E00DCA5A3B9A9838E9ACC85AB10 /* crypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		552184E7862ACAC3E96D2ED808DB5F24 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EFAD20C367701CEA20AA8D030DDD25 /* SSZipArchive.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		55F3711F5CA046B2180AE8F19C4A7021 /* Delta.c in Sources */ = {isa = PBXBuildFile; fileRef = DAC2BCB78EA313BC724B9B4259F9159A /* Delta.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		578D417570195017890A3FBC00B8F922 /* extract.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 42B57382B627908E0A91913DD02301BF /* extract.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		59FF917EE2222DCA83A1018DA80EE8CF /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA52681605DBE8953AA36A9F688509E /* mztools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AA64079AB2CDE10E19090BB3D64A0D0 /* SARUnArchiveANY-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5563A75AEE3D9E01E3E2A8374C52523 /* SARUnArchiveANY-dummy.m */; };
+		5AF097B3ED1D27F2770B72E706465502 /* isnt.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8683E7B743180829189BDFB97F983249 /* isnt.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B2EBC1E61C68156A977789FC176DD01 /* 7zBuf2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C4C9D23CD6827231E102155357F7BDB /* 7zBuf2.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5B7A2A15F4723971BB3747A9248671DC /* rarlang.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3DD7C2F957E4A75FEB2A6261B1633EA2 /* rarlang.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D4127708AC3D405BA20BF62FF5B3463 /* SARUnArchiveANY.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CE1784265CB3F4D60B9E8BA280F7D5 /* SARUnArchiveANY.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		655720E9A55FED8DA76FE8F1F752BC9F /* SARUnArchiveANY.h in Headers */ = {isa = PBXBuildFile; fileRef = 24290872CB9AB637842912D107F984BE /* SARUnArchiveANY.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6634C1B727E693F35CF793E97FC2C262 /* raros.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 95F6D0FED9F83F9A8334411DD9B010CC /* raros.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C676B54872152295D3CB3EFD617326F /* extinfo.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 578890302B994701D094F8CB49D2A127 /* extinfo.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CB0F86855790605D1892E85765E8159 /* Delta.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DFD1A5ED1DEFED016D26ADD33E44343 /* Delta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D450D16446B7E43D7038E21A0BFB0D1 /* Ppmd8.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0E22A82F89330430636831E7E73495 /* Ppmd8.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9F8786ACDB725AFE621484D52E3ECD /* Ppmd.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D1FFA1186B616063EBA952900EBDBE6 /* Ppmd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71D4139B618879FE7BFE329526BC6991 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = C9E4F948B0F296106FBB41CD059D285A /* zip.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		758532BAC830AE94AE2D6A1589AFD4C5 /* array.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FB1AE33ED8AF13EBA2445CFB26FB1FE6 /* array.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		7586C0D63333822311F91716203B821F /* Ppmd7.h in Headers */ = {isa = PBXBuildFile; fileRef = F12D07C2A1AA98FC5E392BBC7F8FCBA1 /* Ppmd7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76064CB2F5508CBC35863C0E93A80768 /* strfn.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C955743BCC0585A6BDECE87B8E20583A /* strfn.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DCB01FB1572B401BD8D2B21BEF02E0 /* headers.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F0038A6A282C84CB182224DE3D381F5E /* headers.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		797A4768DDD778C4CABCD9F9F1664AE2 /* RotateDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 23BC431801F7721BE5F98C69F11EA548 /* RotateDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FF7FDC88FB4698816C290DDCD252759 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = B777C7DE62F388D1E2A0B5E0D26E18EA /* ioapi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		806DE94765A267C1920DA563A1FA3F2B /* rdwrfn.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 742DCFF1D02197A483697399889292B3 /* rdwrfn.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8494CE7B7924E111166D46FE38B8A82E /* rarvm.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F837FD54BE1FFF85EC1BDADA552388D0 /* rarvm.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8579E437D49019D43743B97897F8853F /* Ppmd7Dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CC315D685AAD1EA073D29BB89265BE4 /* Ppmd7Dec.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		85ABB94A17CAE27D6E5D773D57E7C7D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		86654B342FBE329324D9D4200289097C /* consio.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FFCE4E4F77B346262F0C1587EC7491E2 /* consio.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8737522DD0F3F7812E5AC7D4513E323B /* coder.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 11C02AD2FC47179114641DEA20317307 /* coder.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8864DAAA1AEE787DDAA958AA39BFA1A8 /* loclang.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4B093509858522CACE7E1D1BEC9BA46B /* loclang.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8958144DF1F72E72A194892E4D83CB65 /* timefn.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 423DD9EB7C4D2E6F1A9BAFD6C428FB17 /* timefn.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8980053A1046700344D7C17595D5BC57 /* archive.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3896EF6305B24808FF61F09D56F6D712 /* archive.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		89FAF4216D4B6F258C42B9120166EB47 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = C2FEFA87EB82E90244FEFB9E25F40C07 /* mztools.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8A1C56ADF1DA1E27EA9EF57C25F0DE4E /* rardefs.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E888DF47B45545894732DA47630BDEA6 /* rardefs.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A390FBB48A5C8D36E43D4FDEF6B8C04 /* options.hpp in Headers */ = {isa = PBXBuildFile; fileRef = AC360BA9A0D1FA814A4484C0C544FF22 /* options.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B9FEBCDD1EE08B7909996C942C65318 /* CpuArch.c in Sources */ = {isa = PBXBuildFile; fileRef = B27038CCAD929489FF5EE421C203568F /* CpuArch.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8DDC746F1FF27B439ADAECF7EA0A3DE0 /* dll.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0CEF52903690762F9D8610A17A8E5A0C /* dll.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E2F17F9FF35EDBE3A60CA8F76C14FED /* 7zAlloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 5508502A50021E0DC67BA7D53B00F0F7 /* 7zAlloc.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		922B6A451EC7F65A8EFE30DC4C734CA3 /* list.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6FA6F986D2AFE4D584776F871E100B3E /* list.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		925F425072C6ABF5F455B39B32BAD3F3 /* LZMAExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 419AF84D00E941F6133CFD97C0D3B9C7 /* LZMAExtractor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9713BB2274C8A690FB15A4D0206F0A23 /* rs.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B9D3DB2BC005B3D44DE08447BC2E5EB8 /* rs.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		999289AF30A366772766AE8C185E94C1 /* resource.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0FF22A29E24B5550DC2C958D9BCBC014 /* resource.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EDC0D19D1D7F1061D676901D6F9279B /* smallfn.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DE3DCE349C980F3DC1867E808BCD256B /* smallfn.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		A13B5217770867156E412D01F2D8ADFD /* errhnd.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E188A19B24CFC5C20432DF616798B04E /* errhnd.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F7CB2275B55FD771271033A3E7626A /* Alloc.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB749439171D3273394DA3E49109952 /* Alloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABC1108EF17E4DF78ED5E9A55F6B7A74 /* CpuArch.h in Headers */ = {isa = PBXBuildFile; fileRef = 800D086F6E0457F873EB81A5733123E8 /* CpuArch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD806C3727DD372ED1C81DA40E074383 /* Ppmd8.c in Sources */ = {isa = PBXBuildFile; fileRef = 26483241ABA67D375267BBE7D162E8F6 /* Ppmd8.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B08636AC160084989DA055F20B7F0FB2 /* 7zStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FD67F214B3E2ABB8BA0F7FA0F378F74 /* 7zStream.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B1DE8EEE1A986A8F1F5A1F9FE749A9DF /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 34FD5F10BFEB8FEB6D9BDFA9DDD42C98 /* unzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C77227F6FF2E668D3F83C1EB4FC179 /* 7zBuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 40A3CFA902BB3539988002C0074D96F7 /* 7zBuf.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B464BB7F2D55E9C84E5855D16FFDAF12 /* unpack.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C63C5DB2A898399AD899836B67F00A36 /* unpack.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		B652945ED61F470CA1454CA55B64181F /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA6E811F12FF4711A68A9FDBA4CA54B /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8DEBFFF2F297ECE884603D8CA691781 /* filefn.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F998FA36AD2BBF3B191714F83FBD22C0 /* filefn.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAF66733BC932F50937D685D911686B7 /* compress.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 990C427A02D07187E7B5C11BF628C81D /* compress.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		C44AB54015B382DF14581D315082D144 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 2737DE73858F11D4D15DE56CE06CCC44 /* zip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4903D8C22B555C64662BCD908416967 /* Unrar4iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8AA61C87A51A5428297336B438AED2D5 /* Unrar4iOS.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C76D5254D3550854562939FFA2B067E8 /* filcreat.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E4A04B09EC3975D56737B4D3E47DAEE1 /* filcreat.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		C84B72D46C72C2B3D8F11A8B5132E60F /* sha1.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5E025E3A5CDF9605873FBA808FECAFE7 /* sha1.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDBCC534A5C489F50433CFDE3B73DDC7 /* Unrar4iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A88A10474D8C78735DDA2F5146F88D73 /* Unrar4iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF3862BFEC6A53E906CA3AF8B01A4689 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = B63BA6665BFB9D5D54C0175816E359DD /* ioapi.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D004AB0C77246B41B9EC1D0027E4F8FB /* version.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D7033A7C9B9D4E2C4C17D2C9051ADC9C /* version.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		D09F4B39F78646A5B6308F779F11DAB2 /* rar.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0A0AEF4063A5B10AE99CF5498D14C699 /* rar.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		D347A432EE91DB5499AF97E24C0572C8 /* RARExtractException.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E92F4F6BEE03D997891101FCF98A348 /* RARExtractException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3CFEE3A1FF9420175201E227D5EC201 /* crypt.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5D1F015E5502245B81EA1418CAA0E175 /* crypt.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4F2921AAC4E34320EC2A1DA96BC54F5 /* savepos.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F6D626A8C3F6BC5513C904390767A2E7 /* savepos.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		D673FC4D455E5AD415C2C52D15436ACF /* scantree.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 885707FCF2999E58D611E144FA8E6F78 /* scantree.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7AEAC390BE36797B9BEDD594739943C /* 7zIn.c in Sources */ = {isa = PBXBuildFile; fileRef = F1CE5527F41E3DB837864431C3761A4F /* 7zIn.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D9A014BCCE5627DFC10BCE1021E12F82 /* LzmaDec.c in Sources */ = {isa = PBXBuildFile; fileRef = 61F181CC1ABEBAC2CF3EB7C56A27BD53 /* LzmaDec.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DD9A26B72C2B45E5585667C4A19781D6 /* log.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0E1DE990A8E75D02D34F51566E034940 /* log.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFCD3E267D40EABE281B86A6BBC86967 /* global.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C82C02C012F4FB4C00DD2B6736AA65A0 /* global.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42737861A9FF245A2C50A3AEC48C985 /* Alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 7656FE9C12544180478848E4EC775977 /* Alloc.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E4438AF06FD79BC26E9A3A1B556C860B /* find.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 511363F450CB516295DED48DAE8E751F /* find.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		E710FE7D1A920DDA57C0CB7B9CD9B805 /* LZMAExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E1064B738AC170C4D11FB60A47C49D /* LZMAExtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB5E4BD99892C94BF77D9420FE233481 /* os.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2C2C2C2359EDA1B448186E1ED63D93FB /* os.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC825AD19EF0E85E498F1565FF03012C /* LzmaDec.h in Headers */ = {isa = PBXBuildFile; fileRef = 43BD49FA5EA2793AE447D5694E055FB4 /* LzmaDec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0C5B2AEA67D37B699CF71C160F18731 /* suballoc.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9EEB7BC2CDB150486B46666CB5910BA0 /* suballoc.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5912DB294AA0506CDD3D9931C80270B /* cmddata.hpp in Headers */ = {isa = PBXBuildFile; fileRef = AB96E93F14BEE450CE2B899833D4E737 /* cmddata.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		F90247C40511C96D8994CFE4388DE4B4 /* 7zMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 37C16FF4854685B04DB997923CB634C2 /* 7zMain.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FA26F25BD1122C557FA5AC1149F32381 /* rartypes.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 11C25058FA26CA4188D427173FBC2BFF /* rartypes.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB2F3D4CA84CB36408C0A34FB49045C6 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = AF54753713880C425FA4DDC933695888 /* unzip.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF4F0723864E2ABE7A609BD4CB2A7694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7CCC3D311E964669B4580BAAFC822CC;
+			remoteInfo = SARUnArchiveANY;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002D35DA96E78B5894DCD7096D48EDE7 /* SARUnArchiveANY.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SARUnArchiveANY.xcconfig; sourceTree = "<group>"; };
+		080DA54119FEC16B79AE3F4A4A6E97D9 /* system.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = system.hpp; path = External/Unrar/Headers/system.hpp; sourceTree = "<group>"; };
+		08F842B27B348E7149E5D240FCB5DC5D /* Pods-RaR解压-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RaR解压-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A0AEF4063A5B10AE99CF5498D14C699 /* rar.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = rar.hpp; path = External/Unrar/Headers/rar.hpp; sourceTree = "<group>"; };
+		0CEF52903690762F9D8610A17A8E5A0C /* dll.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = dll.hpp; path = External/Unrar/Headers/dll.hpp; sourceTree = "<group>"; };
+		0E1DE990A8E75D02D34F51566E034940 /* log.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = log.hpp; path = External/Unrar/Headers/log.hpp; sourceTree = "<group>"; };
+		0EE9E5D0B48EB74CC58E7F76E92C6DA6 /* filestr.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = filestr.hpp; path = External/Unrar/Headers/filestr.hpp; sourceTree = "<group>"; };
+		0FF22A29E24B5550DC2C958D9BCBC014 /* resource.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = resource.hpp; path = External/Unrar/Headers/resource.hpp; sourceTree = "<group>"; };
+		11C02AD2FC47179114641DEA20317307 /* coder.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = coder.hpp; path = External/Unrar/Headers/coder.hpp; sourceTree = "<group>"; };
+		11C25058FA26CA4188D427173FBC2BFF /* rartypes.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = rartypes.hpp; path = External/Unrar/Headers/rartypes.hpp; sourceTree = "<group>"; };
+		13145191D2F2CE01CD0B646C4E40E194 /* encname.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = encname.hpp; path = External/Unrar/Headers/encname.hpp; sourceTree = "<group>"; };
+		14C32DA3D28758366980AFC61D5BD3C7 /* Ppmd8Dec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = Ppmd8Dec.c; path = External/LZMASDK/Ppmd8Dec.c; sourceTree = "<group>"; };
+		1DFD1A5ED1DEFED016D26ADD33E44343 /* Delta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Delta.h; path = External/LZMASDK/Delta.h; sourceTree = "<group>"; };
+		1EE09778BE1E4D04CDFC62BB766C4C01 /* 7zAlloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = 7zAlloc.h; path = External/LZMASDK/Util/7z/7zAlloc.h; sourceTree = "<group>"; };
+		23BC431801F7721BE5F98C69F11EA548 /* RotateDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RotateDefs.h; path = External/LZMASDK/RotateDefs.h; sourceTree = "<group>"; };
+		24290872CB9AB637842912D107F984BE /* SARUnArchiveANY.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SARUnArchiveANY.h; path = SARUnArchiveANY/SARUnArchiveANY.h; sourceTree = "<group>"; };
+		26483241ABA67D375267BBE7D162E8F6 /* Ppmd8.c */ = {isa = PBXFileReference; includeInIndex = 1; name = Ppmd8.c; path = External/LZMASDK/Ppmd8.c; sourceTree = "<group>"; };
+		2737DE73858F11D4D15DE56CE06CCC44 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = External/ZipArchive/minizip/zip.h; sourceTree = "<group>"; };
+		2C2C2C2359EDA1B448186E1ED63D93FB /* os.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = os.hpp; path = External/Unrar/Headers/os.hpp; sourceTree = "<group>"; };
+		2D1FFA1186B616063EBA952900EBDBE6 /* Ppmd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Ppmd.h; path = External/LZMASDK/Ppmd.h; sourceTree = "<group>"; };
+		2E3D4C66DFC4A32FA3E3B5C36339BCC5 /* 7z.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = 7z.h; path = External/LZMASDK/7z.h; sourceTree = "<group>"; };
+		2F24B98A97000256B0682C1E1959CE08 /* Types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Types.h; path = External/LZMASDK/Types.h; sourceTree = "<group>"; };
+		34FD5F10BFEB8FEB6D9BDFA9DDD42C98 /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = External/ZipArchive/minizip/unzip.h; sourceTree = "<group>"; };
+		37C16FF4854685B04DB997923CB634C2 /* 7zMain.c */ = {isa = PBXFileReference; includeInIndex = 1; name = 7zMain.c; path = External/LZMASDK/Util/7z/7zMain.c; sourceTree = "<group>"; };
+		3896EF6305B24808FF61F09D56F6D712 /* archive.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = archive.hpp; path = External/Unrar/Headers/archive.hpp; sourceTree = "<group>"; };
+		38EFAD20C367701CEA20AA8D030DDD25 /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = External/ZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
+		3C2B3ECD93A96DF087C41F627BD52759 /* Lzma2Dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Lzma2Dec.h; path = External/LZMASDK/Lzma2Dec.h; sourceTree = "<group>"; };
+		3DD7C2F957E4A75FEB2A6261B1633EA2 /* rarlang.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = rarlang.hpp; path = External/Unrar/Headers/rarlang.hpp; sourceTree = "<group>"; };
+		3FDB82901CB3EC9BD6BF55CA39CA8232 /* Unrar4iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Unrar4iOS.framework; path = Frameworks/Unrar4iOS.framework; sourceTree = "<group>"; };
+		40A3CFA902BB3539988002C0074D96F7 /* 7zBuf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = 7zBuf.c; path = External/LZMASDK/7zBuf.c; sourceTree = "<group>"; };
+		415FF131A04BDED92B3CE64ACE521C49 /* Pods-RaR解压-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RaR解压-dummy.m"; sourceTree = "<group>"; };
+		419AF84D00E941F6133CFD97C0D3B9C7 /* LZMAExtractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LZMAExtractor.m; path = External/LZMASDK/LZMAExtractor.m; sourceTree = "<group>"; };
+		423DD9EB7C4D2E6F1A9BAFD6C428FB17 /* timefn.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = timefn.hpp; path = External/Unrar/Headers/timefn.hpp; sourceTree = "<group>"; };
+		42B57382B627908E0A91913DD02301BF /* extract.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = extract.hpp; path = External/Unrar/Headers/extract.hpp; sourceTree = "<group>"; };
+		42CE1784265CB3F4D60B9E8BA280F7D5 /* SARUnArchiveANY.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SARUnArchiveANY.m; path = SARUnArchiveANY/SARUnArchiveANY.m; sourceTree = "<group>"; };
+		43BD49FA5EA2793AE447D5694E055FB4 /* LzmaDec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LzmaDec.h; path = External/LZMASDK/LzmaDec.h; sourceTree = "<group>"; };
+		4B093509858522CACE7E1D1BEC9BA46B /* loclang.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = loclang.hpp; path = External/Unrar/Headers/loclang.hpp; sourceTree = "<group>"; };
+		4CC315D685AAD1EA073D29BB89265BE4 /* Ppmd7Dec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = Ppmd7Dec.c; path = External/LZMASDK/Ppmd7Dec.c; sourceTree = "<group>"; };
+		4DA6E811F12FF4711A68A9FDBA4CA54B /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = External/ZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
+		4F6D68934B035A7C75413E3A14F9FAD7 /* Ppmd7.c */ = {isa = PBXFileReference; includeInIndex = 1; name = Ppmd7.c; path = External/LZMASDK/Ppmd7.c; sourceTree = "<group>"; };
+		4FD67F214B3E2ABB8BA0F7FA0F378F74 /* 7zStream.c */ = {isa = PBXFileReference; includeInIndex = 1; name = 7zStream.c; path = External/LZMASDK/7zStream.c; sourceTree = "<group>"; };
+		50D3E781FAD087E279EF896C138C13F0 /* Pods-RaR解压-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RaR解压-resources.sh"; sourceTree = "<group>"; };
+		511363F450CB516295DED48DAE8E751F /* find.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = find.hpp; path = External/Unrar/Headers/find.hpp; sourceTree = "<group>"; };
+		54EDAE8AC7CA7FD69640FB1A221F1650 /* 7zFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = 7zFile.h; path = External/LZMASDK/7zFile.h; sourceTree = "<group>"; };
+		5508502A50021E0DC67BA7D53B00F0F7 /* 7zAlloc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = 7zAlloc.c; path = External/LZMASDK/Util/7z/7zAlloc.c; sourceTree = "<group>"; };
+		578890302B994701D094F8CB49D2A127 /* extinfo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = extinfo.hpp; path = External/Unrar/Headers/extinfo.hpp; sourceTree = "<group>"; };
+		57E1064B738AC170C4D11FB60A47C49D /* LZMAExtractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LZMAExtractor.h; path = External/LZMASDK/LZMAExtractor.h; sourceTree = "<group>"; };
+		5D1F015E5502245B81EA1418CAA0E175 /* crypt.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = crypt.hpp; path = External/Unrar/Headers/crypt.hpp; sourceTree = "<group>"; };
+		5E025E3A5CDF9605873FBA808FECAFE7 /* sha1.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sha1.hpp; path = External/Unrar/Headers/sha1.hpp; sourceTree = "<group>"; };
+		61F181CC1ABEBAC2CF3EB7C56A27BD53 /* LzmaDec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = LzmaDec.c; path = External/LZMASDK/LzmaDec.c; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69827CBEAD26AB4A9007A41978381E5B /* getbits.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = getbits.hpp; path = External/Unrar/Headers/getbits.hpp; sourceTree = "<group>"; };
+		6C4C9D23CD6827231E102155357F7BDB /* 7zBuf2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = 7zBuf2.c; path = External/LZMASDK/7zBuf2.c; sourceTree = "<group>"; };
+		6FA6F986D2AFE4D584776F871E100B3E /* list.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list.hpp; path = External/Unrar/Headers/list.hpp; sourceTree = "<group>"; };
+		71A0D5924EF1364A154B770C8CDBF3C0 /* pathfn.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = pathfn.hpp; path = External/Unrar/Headers/pathfn.hpp; sourceTree = "<group>"; };
+		742DCFF1D02197A483697399889292B3 /* rdwrfn.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = rdwrfn.hpp; path = External/Unrar/Headers/rdwrfn.hpp; sourceTree = "<group>"; };
+		74DBBAEA589EADCA4B700323D773E0B5 /* strlist.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = strlist.hpp; path = External/Unrar/Headers/strlist.hpp; sourceTree = "<group>"; };
+		763C50B3FE7706A5A1B515ADC9A18AF0 /* libSARUnArchiveANY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSARUnArchiveANY.a; path = libSARUnArchiveANY.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7656FE9C12544180478848E4EC775977 /* Alloc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = Alloc.c; path = External/LZMASDK/Alloc.c; sourceTree = "<group>"; };
+		79B145C6F9C42C6E2D7620D97CF0DABA /* unicode.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = unicode.hpp; path = External/Unrar/Headers/unicode.hpp; sourceTree = "<group>"; };
+		7AE13864B4E6842A4C179E805FB84646 /* match.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = match.hpp; path = External/Unrar/Headers/match.hpp; sourceTree = "<group>"; };
+		7B62322C9A61ACC010B967BC1831779E /* Lzma2Dec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = Lzma2Dec.c; path = External/LZMASDK/Lzma2Dec.c; sourceTree = "<group>"; };
+		800D086F6E0457F873EB81A5733123E8 /* CpuArch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CpuArch.h; path = External/LZMASDK/CpuArch.h; sourceTree = "<group>"; };
+		85C1FD9C616E440DC66F24D64FC97DF6 /* LzHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LzHash.h; path = External/LZMASDK/LzHash.h; sourceTree = "<group>"; };
+		863476FD2922E491E37D498ABB504F41 /* ulinks.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ulinks.hpp; path = External/Unrar/Headers/ulinks.hpp; sourceTree = "<group>"; };
+		8683E7B743180829189BDFB97F983249 /* isnt.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = isnt.hpp; path = External/Unrar/Headers/isnt.hpp; sourceTree = "<group>"; };
+		885707FCF2999E58D611E144FA8E6F78 /* scantree.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = scantree.hpp; path = External/Unrar/Headers/scantree.hpp; sourceTree = "<group>"; };
+		8A780C75EE05AC0D506020E7618E3C31 /* Pods-RaR解压-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RaR解压-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8AA61C87A51A5428297336B438AED2D5 /* Unrar4iOS.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = Unrar4iOS.mm; path = External/Unrar/Unrar4iOS.mm; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95F6D0FED9F83F9A8334411DD9B010CC /* raros.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = raros.hpp; path = External/Unrar/Headers/raros.hpp; sourceTree = "<group>"; };
+		990C427A02D07187E7B5C11BF628C81D /* compress.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = compress.hpp; path = External/Unrar/Headers/compress.hpp; sourceTree = "<group>"; };
+		9B1841AAEE6B7A968A788B8E76B97704 /* rawread.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = rawread.hpp; path = External/Unrar/Headers/rawread.hpp; sourceTree = "<group>"; };
+		9E92F4F6BEE03D997891101FCF98A348 /* RARExtractException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RARExtractException.h; path = External/Unrar/RARExtractException.h; sourceTree = "<group>"; };
+		9EEB7BC2CDB150486B46666CB5910BA0 /* suballoc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = suballoc.hpp; path = External/Unrar/Headers/suballoc.hpp; sourceTree = "<group>"; };
+		A01322177DDDEFA64631527D398A0120 /* Pods-RaR解压.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RaR解压.debug.xcconfig"; sourceTree = "<group>"; };
+		A5B36E00DCA5A3B9A9838E9ACC85AB10 /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = External/ZipArchive/minizip/crypt.h; sourceTree = "<group>"; };
+		A88A10474D8C78735DDA2F5146F88D73 /* Unrar4iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Unrar4iOS.h; path = External/Unrar/Headers/Unrar4iOS.h; sourceTree = "<group>"; };
+		A9BCBE74C5E2D3EDCB593BD5D5AE80E5 /* file.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = file.hpp; path = External/Unrar/Headers/file.hpp; sourceTree = "<group>"; };
+		AB96E93F14BEE450CE2B899833D4E737 /* cmddata.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = cmddata.hpp; path = External/Unrar/Headers/cmddata.hpp; sourceTree = "<group>"; };
+		AC360BA9A0D1FA814A4484C0C544FF22 /* options.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = options.hpp; path = External/Unrar/Headers/options.hpp; sourceTree = "<group>"; };
+		AC7E0225797CA60BAAC7CB75A6F0B2DB /* 7zDec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = 7zDec.c; path = External/LZMASDK/7zDec.c; sourceTree = "<group>"; };
+		AE9CCD87F70DC95385AD10DBDA7B4E07 /* RARExtractException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RARExtractException.m; path = External/Unrar/RARExtractException.m; sourceTree = "<group>"; };
+		AF54753713880C425FA4DDC933695888 /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = unzip.c; path = External/ZipArchive/minizip/unzip.c; sourceTree = "<group>"; };
+		B27038CCAD929489FF5EE421C203568F /* CpuArch.c */ = {isa = PBXFileReference; includeInIndex = 1; name = CpuArch.c; path = External/LZMASDK/CpuArch.c; sourceTree = "<group>"; };
+		B2D0FA85F3221A8C286C620EE20E964E /* recvol.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = recvol.hpp; path = External/Unrar/Headers/recvol.hpp; sourceTree = "<group>"; };
+		B63BA6665BFB9D5D54C0175816E359DD /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi.c; path = External/ZipArchive/minizip/ioapi.c; sourceTree = "<group>"; };
+		B777C7DE62F388D1E2A0B5E0D26E18EA /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = External/ZipArchive/minizip/ioapi.h; sourceTree = "<group>"; };
+		B9D3DB2BC005B3D44DE08447BC2E5EB8 /* rs.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = rs.hpp; path = External/Unrar/Headers/rs.hpp; sourceTree = "<group>"; };
+		BBA37833BA19E3973F9D470F59699AC4 /* 7zFile.c */ = {isa = PBXFileReference; includeInIndex = 1; name = 7zFile.c; path = External/LZMASDK/7zFile.c; sourceTree = "<group>"; };
+		C26AB5F310756A2709F59F814778C80A /* 7zVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = 7zVersion.h; path = External/LZMASDK/7zVersion.h; sourceTree = "<group>"; };
+		C2FEFA87EB82E90244FEFB9E25F40C07 /* mztools.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mztools.c; path = External/ZipArchive/minizip/mztools.c; sourceTree = "<group>"; };
+		C63C5DB2A898399AD899836B67F00A36 /* unpack.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = unpack.hpp; path = External/Unrar/Headers/unpack.hpp; sourceTree = "<group>"; };
+		C82C02C012F4FB4C00DD2B6736AA65A0 /* global.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = global.hpp; path = External/Unrar/Headers/global.hpp; sourceTree = "<group>"; };
+		C955743BCC0585A6BDECE87B8E20583A /* strfn.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = strfn.hpp; path = External/Unrar/Headers/strfn.hpp; sourceTree = "<group>"; };
+		C9E4F948B0F296106FBB41CD059D285A /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = zip.c; path = External/ZipArchive/minizip/zip.c; sourceTree = "<group>"; };
+		CD0E22A82F89330430636831E7E73495 /* Ppmd8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Ppmd8.h; path = External/LZMASDK/Ppmd8.h; sourceTree = "<group>"; };
+		CFA52681605DBE8953AA36A9F688509E /* mztools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mztools.h; path = External/ZipArchive/minizip/mztools.h; sourceTree = "<group>"; };
+		D25E079D6D67E8CD0C4F859A3482EAFD /* 7zBuf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = 7zBuf.h; path = External/LZMASDK/7zBuf.h; sourceTree = "<group>"; };
+		D48B0E11866EC56D44DD73110616A3F3 /* rijndael.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = rijndael.hpp; path = External/Unrar/Headers/rijndael.hpp; sourceTree = "<group>"; };
+		D5563A75AEE3D9E01E3E2A8374C52523 /* SARUnArchiveANY-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SARUnArchiveANY-dummy.m"; sourceTree = "<group>"; };
+		D7033A7C9B9D4E2C4C17D2C9051ADC9C /* version.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = version.hpp; path = External/Unrar/Headers/version.hpp; sourceTree = "<group>"; };
+		D9A44A5B2AA14E8EAFDD9D139C357B6E /* Pods-RaR解压.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RaR解压.release.xcconfig"; sourceTree = "<group>"; };
+		DAC2BCB78EA313BC724B9B4259F9159A /* Delta.c */ = {isa = PBXFileReference; includeInIndex = 1; name = Delta.c; path = External/LZMASDK/Delta.c; sourceTree = "<group>"; };
+		DE3DCE349C980F3DC1867E808BCD256B /* smallfn.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = smallfn.hpp; path = External/Unrar/Headers/smallfn.hpp; sourceTree = "<group>"; };
+		E188A19B24CFC5C20432DF616798B04E /* errhnd.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = errhnd.hpp; path = External/Unrar/Headers/errhnd.hpp; sourceTree = "<group>"; };
+		E4A04B09EC3975D56737B4D3E47DAEE1 /* filcreat.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = filcreat.hpp; path = External/Unrar/Headers/filcreat.hpp; sourceTree = "<group>"; };
+		E4FBD30E0B429A21B2ADBCFD66BD32A9 /* Pods-RaR解压-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RaR解压-frameworks.sh"; sourceTree = "<group>"; };
+		E54879691B2083EF8291B58B42EF4D51 /* model.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = model.hpp; path = External/Unrar/Headers/model.hpp; sourceTree = "<group>"; };
+		E888DF47B45545894732DA47630BDEA6 /* rardefs.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = rardefs.hpp; path = External/Unrar/Headers/rardefs.hpp; sourceTree = "<group>"; };
+		E8A59C9C850A671D5C7C4E1F3A2A1913 /* libPods-RaR解压.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RaR解压.a"; path = "libPods-RaR解压.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB749439171D3273394DA3E49109952 /* Alloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Alloc.h; path = External/LZMASDK/Alloc.h; sourceTree = "<group>"; };
+		F0038A6A282C84CB182224DE3D381F5E /* headers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = headers.hpp; path = External/Unrar/Headers/headers.hpp; sourceTree = "<group>"; };
+		F12D07C2A1AA98FC5E392BBC7F8FCBA1 /* Ppmd7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Ppmd7.h; path = External/LZMASDK/Ppmd7.h; sourceTree = "<group>"; };
+		F1CE5527F41E3DB837864431C3761A4F /* 7zIn.c */ = {isa = PBXFileReference; includeInIndex = 1; name = 7zIn.c; path = External/LZMASDK/7zIn.c; sourceTree = "<group>"; };
+		F6A273BEF032B668D14395BA20A691F9 /* SARUnArchiveANY-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SARUnArchiveANY-prefix.pch"; sourceTree = "<group>"; };
+		F6D626A8C3F6BC5513C904390767A2E7 /* savepos.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = savepos.hpp; path = External/Unrar/Headers/savepos.hpp; sourceTree = "<group>"; };
+		F82A2CB78A710EA047DF83F0200263C3 /* volume.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = volume.hpp; path = External/Unrar/Headers/volume.hpp; sourceTree = "<group>"; };
+		F837FD54BE1FFF85EC1BDADA552388D0 /* rarvm.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = rarvm.hpp; path = External/Unrar/Headers/rarvm.hpp; sourceTree = "<group>"; };
+		F998FA36AD2BBF3B191714F83FBD22C0 /* filefn.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = filefn.hpp; path = External/Unrar/Headers/filefn.hpp; sourceTree = "<group>"; };
+		FB1AE33ED8AF13EBA2445CFB26FB1FE6 /* array.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = array.hpp; path = External/Unrar/Headers/array.hpp; sourceTree = "<group>"; };
+		FFCE4E4F77B346262F0C1587EC7491E2 /* consio.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = consio.hpp; path = External/Unrar/Headers/consio.hpp; sourceTree = "<group>"; };
+		FFCF32CC0DCE81D57F11BFD302F6B15D /* crc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = crc.hpp; path = External/Unrar/Headers/crc.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		601F86F936CCEEE1010EB189F6165594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D31A3A08476D5DBF135DA35027C01F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0366EA3976F31C9D6AB424BC1D7E47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85ABB94A17CAE27D6E5D773D57E7C7D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09147C6EAB68730F7F530D0BBDD8EF5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8A59C9C850A671D5C7C4E1F3A2A1913 /* libPods-RaR解压.a */,
+				763C50B3FE7706A5A1B515ADC9A18AF0 /* libSARUnArchiveANY.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15C3C2703642A4BCB75C5C7AD3766055 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAA4126230FA1D731E09576256E1FA88 /* SARUnArchiveANY */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				15C3C2703642A4BCB75C5C7AD3766055 /* Pods */,
+				09147C6EAB68730F7F530D0BBDD8EF5F /* Products */,
+				8C02660D96E104005F1529D12B469624 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C02660D96E104005F1529D12B469624 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B766CDEC79FA924F23F041B0E85F890D /* Pods-RaR解压 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8CBDF80141A7A14D494058420BCF6EE7 /* LZMASDK */ = {
+			isa = PBXGroup;
+			children = (
+				2E3D4C66DFC4A32FA3E3B5C36339BCC5 /* 7z.h */,
+				5508502A50021E0DC67BA7D53B00F0F7 /* 7zAlloc.c */,
+				1EE09778BE1E4D04CDFC62BB766C4C01 /* 7zAlloc.h */,
+				40A3CFA902BB3539988002C0074D96F7 /* 7zBuf.c */,
+				D25E079D6D67E8CD0C4F859A3482EAFD /* 7zBuf.h */,
+				6C4C9D23CD6827231E102155357F7BDB /* 7zBuf2.c */,
+				AC7E0225797CA60BAAC7CB75A6F0B2DB /* 7zDec.c */,
+				BBA37833BA19E3973F9D470F59699AC4 /* 7zFile.c */,
+				54EDAE8AC7CA7FD69640FB1A221F1650 /* 7zFile.h */,
+				F1CE5527F41E3DB837864431C3761A4F /* 7zIn.c */,
+				37C16FF4854685B04DB997923CB634C2 /* 7zMain.c */,
+				4FD67F214B3E2ABB8BA0F7FA0F378F74 /* 7zStream.c */,
+				C26AB5F310756A2709F59F814778C80A /* 7zVersion.h */,
+				7656FE9C12544180478848E4EC775977 /* Alloc.c */,
+				ECB749439171D3273394DA3E49109952 /* Alloc.h */,
+				B27038CCAD929489FF5EE421C203568F /* CpuArch.c */,
+				800D086F6E0457F873EB81A5733123E8 /* CpuArch.h */,
+				DAC2BCB78EA313BC724B9B4259F9159A /* Delta.c */,
+				1DFD1A5ED1DEFED016D26ADD33E44343 /* Delta.h */,
+				85C1FD9C616E440DC66F24D64FC97DF6 /* LzHash.h */,
+				7B62322C9A61ACC010B967BC1831779E /* Lzma2Dec.c */,
+				3C2B3ECD93A96DF087C41F627BD52759 /* Lzma2Dec.h */,
+				61F181CC1ABEBAC2CF3EB7C56A27BD53 /* LzmaDec.c */,
+				43BD49FA5EA2793AE447D5694E055FB4 /* LzmaDec.h */,
+				57E1064B738AC170C4D11FB60A47C49D /* LZMAExtractor.h */,
+				419AF84D00E941F6133CFD97C0D3B9C7 /* LZMAExtractor.m */,
+				2D1FFA1186B616063EBA952900EBDBE6 /* Ppmd.h */,
+				4F6D68934B035A7C75413E3A14F9FAD7 /* Ppmd7.c */,
+				F12D07C2A1AA98FC5E392BBC7F8FCBA1 /* Ppmd7.h */,
+				4CC315D685AAD1EA073D29BB89265BE4 /* Ppmd7Dec.c */,
+				26483241ABA67D375267BBE7D162E8F6 /* Ppmd8.c */,
+				CD0E22A82F89330430636831E7E73495 /* Ppmd8.h */,
+				14C32DA3D28758366980AFC61D5BD3C7 /* Ppmd8Dec.c */,
+				23BC431801F7721BE5F98C69F11EA548 /* RotateDefs.h */,
+				2F24B98A97000256B0682C1E1959CE08 /* Types.h */,
+			);
+			name = LZMASDK;
+			sourceTree = "<group>";
+		};
+		90BF8C26059BB18DC7ACD723916F712D /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				A5B36E00DCA5A3B9A9838E9ACC85AB10 /* crypt.h */,
+				B63BA6665BFB9D5D54C0175816E359DD /* ioapi.c */,
+				B777C7DE62F388D1E2A0B5E0D26E18EA /* ioapi.h */,
+				C2FEFA87EB82E90244FEFB9E25F40C07 /* mztools.c */,
+				CFA52681605DBE8953AA36A9F688509E /* mztools.h */,
+				4DA6E811F12FF4711A68A9FDBA4CA54B /* SSZipArchive.h */,
+				38EFAD20C367701CEA20AA8D030DDD25 /* SSZipArchive.m */,
+				AF54753713880C425FA4DDC933695888 /* unzip.c */,
+				34FD5F10BFEB8FEB6D9BDFA9DDD42C98 /* unzip.h */,
+				C9E4F948B0F296106FBB41CD059D285A /* zip.c */,
+				2737DE73858F11D4D15DE56CE06CCC44 /* zip.h */,
+			);
+			name = ZipArchive;
+			sourceTree = "<group>";
+		};
+		9D56A9D91E3A18ACF9C6B893F19420B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FDB82901CB3EC9BD6BF55CA39CA8232 /* Unrar4iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A81BE13613ADE5FD72B084ED917C96E5 /* Unrar */ = {
+			isa = PBXGroup;
+			children = (
+				3896EF6305B24808FF61F09D56F6D712 /* archive.hpp */,
+				FB1AE33ED8AF13EBA2445CFB26FB1FE6 /* array.hpp */,
+				AB96E93F14BEE450CE2B899833D4E737 /* cmddata.hpp */,
+				11C02AD2FC47179114641DEA20317307 /* coder.hpp */,
+				990C427A02D07187E7B5C11BF628C81D /* compress.hpp */,
+				FFCE4E4F77B346262F0C1587EC7491E2 /* consio.hpp */,
+				FFCF32CC0DCE81D57F11BFD302F6B15D /* crc.hpp */,
+				5D1F015E5502245B81EA1418CAA0E175 /* crypt.hpp */,
+				0CEF52903690762F9D8610A17A8E5A0C /* dll.hpp */,
+				13145191D2F2CE01CD0B646C4E40E194 /* encname.hpp */,
+				E188A19B24CFC5C20432DF616798B04E /* errhnd.hpp */,
+				578890302B994701D094F8CB49D2A127 /* extinfo.hpp */,
+				42B57382B627908E0A91913DD02301BF /* extract.hpp */,
+				E4A04B09EC3975D56737B4D3E47DAEE1 /* filcreat.hpp */,
+				A9BCBE74C5E2D3EDCB593BD5D5AE80E5 /* file.hpp */,
+				F998FA36AD2BBF3B191714F83FBD22C0 /* filefn.hpp */,
+				0EE9E5D0B48EB74CC58E7F76E92C6DA6 /* filestr.hpp */,
+				511363F450CB516295DED48DAE8E751F /* find.hpp */,
+				69827CBEAD26AB4A9007A41978381E5B /* getbits.hpp */,
+				C82C02C012F4FB4C00DD2B6736AA65A0 /* global.hpp */,
+				F0038A6A282C84CB182224DE3D381F5E /* headers.hpp */,
+				8683E7B743180829189BDFB97F983249 /* isnt.hpp */,
+				6FA6F986D2AFE4D584776F871E100B3E /* list.hpp */,
+				4B093509858522CACE7E1D1BEC9BA46B /* loclang.hpp */,
+				0E1DE990A8E75D02D34F51566E034940 /* log.hpp */,
+				7AE13864B4E6842A4C179E805FB84646 /* match.hpp */,
+				E54879691B2083EF8291B58B42EF4D51 /* model.hpp */,
+				AC360BA9A0D1FA814A4484C0C544FF22 /* options.hpp */,
+				2C2C2C2359EDA1B448186E1ED63D93FB /* os.hpp */,
+				71A0D5924EF1364A154B770C8CDBF3C0 /* pathfn.hpp */,
+				0A0AEF4063A5B10AE99CF5498D14C699 /* rar.hpp */,
+				E888DF47B45545894732DA47630BDEA6 /* rardefs.hpp */,
+				9E92F4F6BEE03D997891101FCF98A348 /* RARExtractException.h */,
+				AE9CCD87F70DC95385AD10DBDA7B4E07 /* RARExtractException.m */,
+				3DD7C2F957E4A75FEB2A6261B1633EA2 /* rarlang.hpp */,
+				95F6D0FED9F83F9A8334411DD9B010CC /* raros.hpp */,
+				11C25058FA26CA4188D427173FBC2BFF /* rartypes.hpp */,
+				F837FD54BE1FFF85EC1BDADA552388D0 /* rarvm.hpp */,
+				9B1841AAEE6B7A968A788B8E76B97704 /* rawread.hpp */,
+				742DCFF1D02197A483697399889292B3 /* rdwrfn.hpp */,
+				B2D0FA85F3221A8C286C620EE20E964E /* recvol.hpp */,
+				0FF22A29E24B5550DC2C958D9BCBC014 /* resource.hpp */,
+				D48B0E11866EC56D44DD73110616A3F3 /* rijndael.hpp */,
+				B9D3DB2BC005B3D44DE08447BC2E5EB8 /* rs.hpp */,
+				F6D626A8C3F6BC5513C904390767A2E7 /* savepos.hpp */,
+				885707FCF2999E58D611E144FA8E6F78 /* scantree.hpp */,
+				5E025E3A5CDF9605873FBA808FECAFE7 /* sha1.hpp */,
+				DE3DCE349C980F3DC1867E808BCD256B /* smallfn.hpp */,
+				C955743BCC0585A6BDECE87B8E20583A /* strfn.hpp */,
+				74DBBAEA589EADCA4B700323D773E0B5 /* strlist.hpp */,
+				9EEB7BC2CDB150486B46666CB5910BA0 /* suballoc.hpp */,
+				080DA54119FEC16B79AE3F4A4A6E97D9 /* system.hpp */,
+				423DD9EB7C4D2E6F1A9BAFD6C428FB17 /* timefn.hpp */,
+				863476FD2922E491E37D498ABB504F41 /* ulinks.hpp */,
+				79B145C6F9C42C6E2D7620D97CF0DABA /* unicode.hpp */,
+				C63C5DB2A898399AD899836B67F00A36 /* unpack.hpp */,
+				A88A10474D8C78735DDA2F5146F88D73 /* Unrar4iOS.h */,
+				8AA61C87A51A5428297336B438AED2D5 /* Unrar4iOS.mm */,
+				D7033A7C9B9D4E2C4C17D2C9051ADC9C /* version.hpp */,
+				F82A2CB78A710EA047DF83F0200263C3 /* volume.hpp */,
+			);
+			name = Unrar;
+			sourceTree = "<group>";
+		};
+		B766CDEC79FA924F23F041B0E85F890D /* Pods-RaR解压 */ = {
+			isa = PBXGroup;
+			children = (
+				8A780C75EE05AC0D506020E7618E3C31 /* Pods-RaR解压-acknowledgements.markdown */,
+				08F842B27B348E7149E5D240FCB5DC5D /* Pods-RaR解压-acknowledgements.plist */,
+				415FF131A04BDED92B3CE64ACE521C49 /* Pods-RaR解压-dummy.m */,
+				E4FBD30E0B429A21B2ADBCFD66BD32A9 /* Pods-RaR解压-frameworks.sh */,
+				50D3E781FAD087E279EF896C138C13F0 /* Pods-RaR解压-resources.sh */,
+				A01322177DDDEFA64631527D398A0120 /* Pods-RaR解压.debug.xcconfig */,
+				D9A44A5B2AA14E8EAFDD9D139C357B6E /* Pods-RaR解压.release.xcconfig */,
+			);
+			name = "Pods-RaR解压";
+			path = "Target Support Files/Pods-RaR解压";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAA4126230FA1D731E09576256E1FA88 /* SARUnArchiveANY */ = {
+			isa = PBXGroup;
+			children = (
+				24290872CB9AB637842912D107F984BE /* SARUnArchiveANY.h */,
+				42CE1784265CB3F4D60B9E8BA280F7D5 /* SARUnArchiveANY.m */,
+				9D56A9D91E3A18ACF9C6B893F19420B1 /* Frameworks */,
+				8CBDF80141A7A14D494058420BCF6EE7 /* LZMASDK */,
+				DA67767AFBD34775CAA1DC593BBCF7A5 /* Support Files */,
+				A81BE13613ADE5FD72B084ED917C96E5 /* Unrar */,
+				90BF8C26059BB18DC7ACD723916F712D /* ZipArchive */,
+			);
+			name = SARUnArchiveANY;
+			path = SARUnArchiveANY;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA67767AFBD34775CAA1DC593BBCF7A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				002D35DA96E78B5894DCD7096D48EDE7 /* SARUnArchiveANY.xcconfig */,
+				D5563A75AEE3D9E01E3E2A8374C52523 /* SARUnArchiveANY-dummy.m */,
+				F6A273BEF032B668D14395BA20A691F9 /* SARUnArchiveANY-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SARUnArchiveANY";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A07B87D02823F5ABB58998881874C512 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5076AF16B70DF81D5C841C07F129AC6D /* 7z.h in Headers */,
+				0B6F28BC4F98F25B5EFA9E4B7BCDA36B /* 7zAlloc.h in Headers */,
+				0E7AF11E5EB25A8FB0E006981E0AD15C /* 7zBuf.h in Headers */,
+				28286100CB24B93B13672EEE1EBB81A9 /* 7zFile.h in Headers */,
+				0D2FDC4E779FF3BC55A8BD3B8C9C32CE /* 7zVersion.h in Headers */,
+				A4F7CB2275B55FD771271033A3E7626A /* Alloc.h in Headers */,
+				8980053A1046700344D7C17595D5BC57 /* archive.hpp in Headers */,
+				758532BAC830AE94AE2D6A1589AFD4C5 /* array.hpp in Headers */,
+				F5912DB294AA0506CDD3D9931C80270B /* cmddata.hpp in Headers */,
+				8737522DD0F3F7812E5AC7D4513E323B /* coder.hpp in Headers */,
+				BAF66733BC932F50937D685D911686B7 /* compress.hpp in Headers */,
+				86654B342FBE329324D9D4200289097C /* consio.hpp in Headers */,
+				ABC1108EF17E4DF78ED5E9A55F6B7A74 /* CpuArch.h in Headers */,
+				342BD46ED3CCF2844F53BE18CC8D7A0C /* crc.hpp in Headers */,
+				5264AB5154F32C96D6061C5AB2C8E9F8 /* crypt.h in Headers */,
+				D3CFEE3A1FF9420175201E227D5EC201 /* crypt.hpp in Headers */,
+				6CB0F86855790605D1892E85765E8159 /* Delta.h in Headers */,
+				8DDC746F1FF27B439ADAECF7EA0A3DE0 /* dll.hpp in Headers */,
+				4D4C95974B9F7A5DE5AAE66CB20C0CE6 /* encname.hpp in Headers */,
+				A13B5217770867156E412D01F2D8ADFD /* errhnd.hpp in Headers */,
+				6C676B54872152295D3CB3EFD617326F /* extinfo.hpp in Headers */,
+				578D417570195017890A3FBC00B8F922 /* extract.hpp in Headers */,
+				C76D5254D3550854562939FFA2B067E8 /* filcreat.hpp in Headers */,
+				1DCAA3DAD050E2B98865DC06571ED844 /* file.hpp in Headers */,
+				B8DEBFFF2F297ECE884603D8CA691781 /* filefn.hpp in Headers */,
+				450E7DE87B925A4C6626543E8796701E /* filestr.hpp in Headers */,
+				E4438AF06FD79BC26E9A3A1B556C860B /* find.hpp in Headers */,
+				124B5C38E5438215363E7688549455EB /* getbits.hpp in Headers */,
+				DFCD3E267D40EABE281B86A6BBC86967 /* global.hpp in Headers */,
+				78DCB01FB1572B401BD8D2B21BEF02E0 /* headers.hpp in Headers */,
+				7FF7FDC88FB4698816C290DDCD252759 /* ioapi.h in Headers */,
+				5AF097B3ED1D27F2770B72E706465502 /* isnt.hpp in Headers */,
+				922B6A451EC7F65A8EFE30DC4C734CA3 /* list.hpp in Headers */,
+				8864DAAA1AEE787DDAA958AA39BFA1A8 /* loclang.hpp in Headers */,
+				DD9A26B72C2B45E5585667C4A19781D6 /* log.hpp in Headers */,
+				02F4CF5E6F72FCFE72906ACB5C8E841E /* LzHash.h in Headers */,
+				0290900E3B07A2A39C03BE2B3756754F /* Lzma2Dec.h in Headers */,
+				EC825AD19EF0E85E498F1565FF03012C /* LzmaDec.h in Headers */,
+				E710FE7D1A920DDA57C0CB7B9CD9B805 /* LZMAExtractor.h in Headers */,
+				2A2F07CC79CB5432B3DC2FE8D36D972C /* match.hpp in Headers */,
+				056B0D4DA526BB418DB7CE2DB3474129 /* model.hpp in Headers */,
+				59FF917EE2222DCA83A1018DA80EE8CF /* mztools.h in Headers */,
+				8A390FBB48A5C8D36E43D4FDEF6B8C04 /* options.hpp in Headers */,
+				EB5E4BD99892C94BF77D9420FE233481 /* os.hpp in Headers */,
+				1CDA49AD72EA6E9F8067CA82C9E9EC2F /* pathfn.hpp in Headers */,
+				6F9F8786ACDB725AFE621484D52E3ECD /* Ppmd.h in Headers */,
+				7586C0D63333822311F91716203B821F /* Ppmd7.h in Headers */,
+				6D450D16446B7E43D7038E21A0BFB0D1 /* Ppmd8.h in Headers */,
+				D09F4B39F78646A5B6308F779F11DAB2 /* rar.hpp in Headers */,
+				8A1C56ADF1DA1E27EA9EF57C25F0DE4E /* rardefs.hpp in Headers */,
+				D347A432EE91DB5499AF97E24C0572C8 /* RARExtractException.h in Headers */,
+				5B7A2A15F4723971BB3747A9248671DC /* rarlang.hpp in Headers */,
+				6634C1B727E693F35CF793E97FC2C262 /* raros.hpp in Headers */,
+				FA26F25BD1122C557FA5AC1149F32381 /* rartypes.hpp in Headers */,
+				8494CE7B7924E111166D46FE38B8A82E /* rarvm.hpp in Headers */,
+				027CB20F95178B0B4BE9D8F8958DF0D2 /* rawread.hpp in Headers */,
+				806DE94765A267C1920DA563A1FA3F2B /* rdwrfn.hpp in Headers */,
+				50051E87F04D47025E3BE04AC2524C36 /* recvol.hpp in Headers */,
+				999289AF30A366772766AE8C185E94C1 /* resource.hpp in Headers */,
+				39B5324B168756D24512BC425991D938 /* rijndael.hpp in Headers */,
+				797A4768DDD778C4CABCD9F9F1664AE2 /* RotateDefs.h in Headers */,
+				9713BB2274C8A690FB15A4D0206F0A23 /* rs.hpp in Headers */,
+				655720E9A55FED8DA76FE8F1F752BC9F /* SARUnArchiveANY.h in Headers */,
+				D4F2921AAC4E34320EC2A1DA96BC54F5 /* savepos.hpp in Headers */,
+				D673FC4D455E5AD415C2C52D15436ACF /* scantree.hpp in Headers */,
+				C84B72D46C72C2B3D8F11A8B5132E60F /* sha1.hpp in Headers */,
+				9EDC0D19D1D7F1061D676901D6F9279B /* smallfn.hpp in Headers */,
+				B652945ED61F470CA1454CA55B64181F /* SSZipArchive.h in Headers */,
+				76064CB2F5508CBC35863C0E93A80768 /* strfn.hpp in Headers */,
+				40781FB6E5D93F88EA28BB06966F8DF4 /* strlist.hpp in Headers */,
+				F0C5B2AEA67D37B699CF71C160F18731 /* suballoc.hpp in Headers */,
+				1D7BA005B48C5399DC762114BFD96C2F /* system.hpp in Headers */,
+				8958144DF1F72E72A194892E4D83CB65 /* timefn.hpp in Headers */,
+				00338290BE40C268B933492B4D664263 /* Types.h in Headers */,
+				0F2E41A8584435FA95A3127CB4A180F9 /* ulinks.hpp in Headers */,
+				211F0E20B572734998C4B67AFB3F5439 /* unicode.hpp in Headers */,
+				B464BB7F2D55E9C84E5855D16FFDAF12 /* unpack.hpp in Headers */,
+				CDBCC534A5C489F50433CFDE3B73DDC7 /* Unrar4iOS.h in Headers */,
+				B1DE8EEE1A986A8F1F5A1F9FE749A9DF /* unzip.h in Headers */,
+				D004AB0C77246B41B9EC1D0027E4F8FB /* version.hpp in Headers */,
+				16A1096070CD4E5BB956025BC632FF56 /* volume.hpp in Headers */,
+				C44AB54015B382DF14581D315082D144 /* zip.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8E51469675A924946335F86BEA6D5553 /* Pods-RaR解压 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0A6AABCEB6F087D8A5E9A35329EDE2 /* Build configuration list for PBXNativeTarget "Pods-RaR解压" */;
+			buildPhases = (
+				05A8C5EDF853255F11C0C9633DDC6A74 /* Sources */,
+				A0366EA3976F31C9D6AB424BC1D7E47C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4485A69369F6D89BA15FAD8CE4D58EBC /* PBXTargetDependency */,
+			);
+			name = "Pods-RaR解压";
+			productName = "Pods-RaR解压";
+			productReference = E8A59C9C850A671D5C7C4E1F3A2A1913 /* libPods-RaR解压.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F7CCC3D311E964669B4580BAAFC822CC /* SARUnArchiveANY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE8DA6D072A403FC6B114F7A59CD76A /* Build configuration list for PBXNativeTarget "SARUnArchiveANY" */;
+			buildPhases = (
+				4FB2B0D5D3D39C46EDE15D405293611B /* Sources */,
+				601F86F936CCEEE1010EB189F6165594 /* Frameworks */,
+				A07B87D02823F5ABB58998881874C512 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SARUnArchiveANY;
+			productName = SARUnArchiveANY;
+			productReference = 763C50B3FE7706A5A1B515ADC9A18AF0 /* libSARUnArchiveANY.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 09147C6EAB68730F7F530D0BBDD8EF5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E51469675A924946335F86BEA6D5553 /* Pods-RaR解压 */,
+				F7CCC3D311E964669B4580BAAFC822CC /* SARUnArchiveANY */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05A8C5EDF853255F11C0C9633DDC6A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C8190521A976B3D684E07681B25E88 /* Pods-RaR解压-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB2B0D5D3D39C46EDE15D405293611B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2F17F9FF35EDBE3A60CA8F76C14FED /* 7zAlloc.c in Sources */,
+				B2C77227F6FF2E668D3F83C1EB4FC179 /* 7zBuf.c in Sources */,
+				5B2EBC1E61C68156A977789FC176DD01 /* 7zBuf2.c in Sources */,
+				42F72E0ECCB66EEA0F86B8B86174638E /* 7zDec.c in Sources */,
+				517EC6F1980737BB1AD4B612CE51FDD7 /* 7zFile.c in Sources */,
+				D7AEAC390BE36797B9BEDD594739943C /* 7zIn.c in Sources */,
+				F90247C40511C96D8994CFE4388DE4B4 /* 7zMain.c in Sources */,
+				B08636AC160084989DA055F20B7F0FB2 /* 7zStream.c in Sources */,
+				E42737861A9FF245A2C50A3AEC48C985 /* Alloc.c in Sources */,
+				8B9FEBCDD1EE08B7909996C942C65318 /* CpuArch.c in Sources */,
+				55F3711F5CA046B2180AE8F19C4A7021 /* Delta.c in Sources */,
+				CF3862BFEC6A53E906CA3AF8B01A4689 /* ioapi.c in Sources */,
+				20014097F3B3BFD44C165C681F65BA2F /* Lzma2Dec.c in Sources */,
+				D9A014BCCE5627DFC10BCE1021E12F82 /* LzmaDec.c in Sources */,
+				925F425072C6ABF5F455B39B32BAD3F3 /* LZMAExtractor.m in Sources */,
+				89FAF4216D4B6F258C42B9120166EB47 /* mztools.c in Sources */,
+				11DFA8D0D8557882470CA1A82E4318B3 /* Ppmd7.c in Sources */,
+				8579E437D49019D43743B97897F8853F /* Ppmd7Dec.c in Sources */,
+				AD806C3727DD372ED1C81DA40E074383 /* Ppmd8.c in Sources */,
+				39E0F2B614E3AD49A0EA367DF75E331A /* Ppmd8Dec.c in Sources */,
+				1CF54A624B919FC22BC06D8B712B051D /* RARExtractException.m in Sources */,
+				5AA64079AB2CDE10E19090BB3D64A0D0 /* SARUnArchiveANY-dummy.m in Sources */,
+				5D4127708AC3D405BA20BF62FF5B3463 /* SARUnArchiveANY.m in Sources */,
+				552184E7862ACAC3E96D2ED808DB5F24 /* SSZipArchive.m in Sources */,
+				C4903D8C22B555C64662BCD908416967 /* Unrar4iOS.mm in Sources */,
+				FB2F3D4CA84CB36408C0A34FB49045C6 /* unzip.c in Sources */,
+				71D4139B618879FE7BFE329526BC6991 /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4485A69369F6D89BA15FAD8CE4D58EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SARUnArchiveANY;
+			target = F7CCC3D311E964669B4580BAAFC822CC /* SARUnArchiveANY */;
+			targetProxy = FF4F0723864E2ABE7A609BD4CB2A7694 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		122E93F3117DB4567960C859342E1257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002D35DA96E78B5894DCD7096D48EDE7 /* SARUnArchiveANY.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SARUnArchiveANY/SARUnArchiveANY-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1322A760A899BC65C2B73895ACA1390C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002D35DA96E78B5894DCD7096D48EDE7 /* SARUnArchiveANY.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SARUnArchiveANY/SARUnArchiveANY-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1CC580F6496930AE0B535F4EF294D027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A01322177DDDEFA64631527D398A0120 /* Pods-RaR解压.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62C52E0D4A7A349A73CB848492F9F84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A44A5B2AA14E8EAFDD9D139C357B6E /* Pods-RaR解压.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE8DA6D072A403FC6B114F7A59CD76A /* Build configuration list for PBXNativeTarget "SARUnArchiveANY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1322A760A899BC65C2B73895ACA1390C /* Debug */,
+				122E93F3117DB4567960C859342E1257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0A6AABCEB6F087D8A5E9A35329EDE2 /* Build configuration list for PBXNativeTarget "Pods-RaR解压" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC580F6496930AE0B535F4EF294D027 /* Debug */,
+				62C52E0D4A7A349A73CB848492F9F84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

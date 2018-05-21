@@ -1,0 +1,18 @@
+PODS:
+  - SARUnArchiveANY (0.0.1):
+    - SARUnArchiveANY/LZMASDK (= 0.0.1)
+    - SARUnArchiveANY/Unrar (= 0.0.1)
+    - SARUnArchiveANY/ZipArchive (= 0.0.1)
+  - SARUnArchiveANY/LZMASDK (0.0.1)
+  - SARUnArchiveANY/Unrar (0.0.1)
+  - SARUnArchiveANY/ZipArchive (0.0.1)
+
+DEPENDENCIES:
+  - SARUnArchiveANY
+
+SPEC CHECKSUMS:
+  SARUnArchiveANY: 6faafbbfa04b4d5a9d500dac7a59671c1c606738
+
+PODFILE CHECKSUM: 88ebf04c1a83222d88e42798a10b5720ec943547
+
+COCOAPODS: 1.2.1

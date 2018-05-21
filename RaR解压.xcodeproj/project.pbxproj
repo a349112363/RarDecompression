@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650C674F2071C18900425C66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 650C674E2071C18900425C66 /* AppDelegate.m */; };
+		650C67522071C18900425C66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650C67512071C18900425C66 /* ViewController.m */; };
+		650C67552071C18900425C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650C67532071C18900425C66 /* Main.storyboard */; };
+		650C67572071C18900425C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650C67562071C18900425C66 /* Assets.xcassets */; };
+		650C675A2071C18900425C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650C67582071C18900425C66 /* LaunchScreen.storyboard */; };
+		650C675D2071C18900425C66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 650C675C2071C18900425C66 /* main.m */; };
+		650C67672071C18900425C66 /* RaR__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 650C67662071C18900425C66 /* RaR__Tests.m */; };
+		650C67722071C18900425C66 /* RaR__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 650C67712071C18900425C66 /* RaR__UITests.m */; };
+		650C67802071C59F00425C66 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 650C677F2071C59F00425C66 /* libc++.tbd */; };
+		650C67822071C94200425C66 /* test in Resources */ = {isa = PBXBuildFile; fileRef = 650C67812071C94200425C66 /* test */; };
+		650C67842071CA4C00425C66 /* test.rar in Resources */ = {isa = PBXBuildFile; fileRef = 650C67832071CA4C00425C66 /* test.rar */; };
+		650C67862071D5E500425C66 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 650C67852071D5E500425C66 /* libz.tbd */; };
+		934ED66016F0A7FA19409D43 /* libPods-RaR解压.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 939200310357AAB6BFD3D24D /* libPods-RaR解压.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		650C67632071C18900425C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650C67422071C18900425C66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650C67492071C18900425C66;
+			remoteInfo = "RaR解压";
+		};
+		650C676E2071C18900425C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650C67422071C18900425C66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650C67492071C18900425C66;
+			remoteInfo = "RaR解压";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		650C674A2071C18900425C66 /* RaR解压.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RaR解压.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		650C674D2071C18900425C66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		650C674E2071C18900425C66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		650C67502071C18900425C66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		650C67512071C18900425C66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		650C67542071C18900425C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		650C67562071C18900425C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		650C67592071C18900425C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		650C675B2071C18900425C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650C675C2071C18900425C66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		650C67622071C18900425C66 /* RaR解压Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RaR解压Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		650C67662071C18900425C66 /* RaR__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaR__Tests.m; sourceTree = "<group>"; };
+		650C67682071C18900425C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650C676D2071C18900425C66 /* RaR解压UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RaR解压UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		650C67712071C18900425C66 /* RaR__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaR__UITests.m; sourceTree = "<group>"; };
+		650C67732071C18900425C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650C677F2071C59F00425C66 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		650C67812071C94200425C66 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; name = test; path = "RaR解压/test"; sourceTree = "<group>"; };
+		650C67832071CA4C00425C66 /* test.rar */ = {isa = PBXFileReference; lastKnownFileType = file; name = test.rar; path = "RaR解压/test.rar"; sourceTree = "<group>"; };
+		650C67852071D5E500425C66 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		87B9D8DD99D08DEBFB0CF124 /* Pods-RaR解压.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaR解压.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RaR解压/Pods-RaR解压.debug.xcconfig"; sourceTree = "<group>"; };
+		939200310357AAB6BFD3D24D /* libPods-RaR解压.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RaR解压.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3DC6EEBD1A55689648A056 /* Pods-RaR解压.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaR解压.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaR解压/Pods-RaR解压.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		650C67472071C18900425C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650C67862071D5E500425C66 /* libz.tbd in Frameworks */,
+				650C67802071C59F00425C66 /* libc++.tbd in Frameworks */,
+				934ED66016F0A7FA19409D43 /* libPods-RaR解压.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650C675F2071C18900425C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650C676A2071C18900425C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259F70A7B9F7450ABBAEE400 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				650C67852071D5E500425C66 /* libz.tbd */,
+				650C677F2071C59F00425C66 /* libc++.tbd */,
+				939200310357AAB6BFD3D24D /* libPods-RaR解压.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		650C67412071C18900425C66 = {
+			isa = PBXGroup;
+			children = (
+				650C67832071CA4C00425C66 /* test.rar */,
+				650C67812071C94200425C66 /* test */,
+				650C674C2071C18900425C66 /* RaR解压 */,
+				650C67652071C18900425C66 /* RaR解压Tests */,
+				650C67702071C18900425C66 /* RaR解压UITests */,
+				650C674B2071C18900425C66 /* Products */,
+				EFDB5F5E0B8AD73BD9DFD37F /* Pods */,
+				259F70A7B9F7450ABBAEE400 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		650C674B2071C18900425C66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				650C674A2071C18900425C66 /* RaR解压.app */,
+				650C67622071C18900425C66 /* RaR解压Tests.xctest */,
+				650C676D2071C18900425C66 /* RaR解压UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		650C674C2071C18900425C66 /* RaR解压 */ = {
+			isa = PBXGroup;
+			children = (
+				650C674D2071C18900425C66 /* AppDelegate.h */,
+				650C674E2071C18900425C66 /* AppDelegate.m */,
+				650C67502071C18900425C66 /* ViewController.h */,
+				650C67512071C18900425C66 /* ViewController.m */,
+				650C67532071C18900425C66 /* Main.storyboard */,
+				650C67562071C18900425C66 /* Assets.xcassets */,
+				650C67582071C18900425C66 /* LaunchScreen.storyboard */,
+				650C675B2071C18900425C66 /* Info.plist */,
+				650C675C2071C18900425C66 /* main.m */,
+			);
+			path = "RaR解压";
+			sourceTree = "<group>";
+		};
+		650C67652071C18900425C66 /* RaR解压Tests */ = {
+			isa = PBXGroup;
+			children = (
+				650C67662071C18900425C66 /* RaR__Tests.m */,
+				650C67682071C18900425C66 /* Info.plist */,
+			);
+			path = "RaR解压Tests";
+			sourceTree = "<group>";
+		};
+		650C67702071C18900425C66 /* RaR解压UITests */ = {
+			isa = PBXGroup;
+			children = (
+				650C67712071C18900425C66 /* RaR__UITests.m */,
+				650C67732071C18900425C66 /* Info.plist */,
+			);
+			path = "RaR解压UITests";
+			sourceTree = "<group>";
+		};
+		EFDB5F5E0B8AD73BD9DFD37F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87B9D8DD99D08DEBFB0CF124 /* Pods-RaR解压.debug.xcconfig */,
+				AD3DC6EEBD1A55689648A056 /* Pods-RaR解压.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		650C67492071C18900425C66 /* RaR解压 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650C67762071C18900425C66 /* Build configuration list for PBXNativeTarget "RaR解压" */;
+			buildPhases = (
+				6854F028EDF001B0B1B48FC2 /* [CP] Check Pods Manifest.lock */,
+				650C67462071C18900425C66 /* Sources */,
+				650C67472071C18900425C66 /* Frameworks */,
+				650C67482071C18900425C66 /* Resources */,
+				AF25DDD38CB9FF18A340BA18 /* [CP] Embed Pods Frameworks */,
+				27918ACC5C416DFEF5176E07 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RaR解压";
+			productName = "RaR解压";
+			productReference = 650C674A2071C18900425C66 /* RaR解压.app */;
+			productType = "com.apple.product-type.application";
+		};
+		650C67612071C18900425C66 /* RaR解压Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650C67792071C18900425C66 /* Build configuration list for PBXNativeTarget "RaR解压Tests" */;
+			buildPhases = (
+				650C675E2071C18900425C66 /* Sources */,
+				650C675F2071C18900425C66 /* Frameworks */,
+				650C67602071C18900425C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				650C67642071C18900425C66 /* PBXTargetDependency */,
+			);
+			name = "RaR解压Tests";
+			productName = "RaR解压Tests";
+			productReference = 650C67622071C18900425C66 /* RaR解压Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		650C676C2071C18900425C66 /* RaR解压UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650C677C2071C18900425C66 /* Build configuration list for PBXNativeTarget "RaR解压UITests" */;
+			buildPhases = (
+				650C67692071C18900425C66 /* Sources */,
+				650C676A2071C18900425C66 /* Frameworks */,
+				650C676B2071C18900425C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				650C676F2071C18900425C66 /* PBXTargetDependency */,
+			);
+			name = "RaR解压UITests";
+			productName = "RaR解压UITests";
+			productReference = 650C676D2071C18900425C66 /* RaR解压UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		650C67422071C18900425C66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = 2018;
+				TargetAttributes = {
+					650C67492071C18900425C66 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					650C67612071C18900425C66 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 650C67492071C18900425C66;
+					};
+					650C676C2071C18900425C66 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 650C67492071C18900425C66;
+					};
+				};
+			};
+			buildConfigurationList = 650C67452071C18900425C66 /* Build configuration list for PBXProject "RaR解压" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 650C67412071C18900425C66;
+			productRefGroup = 650C674B2071C18900425C66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				650C67492071C18900425C66 /* RaR解压 */,
+				650C67612071C18900425C66 /* RaR解压Tests */,
+				650C676C2071C18900425C66 /* RaR解压UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		650C67482071C18900425C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650C67822071C94200425C66 /* test in Resources */,
+				650C675A2071C18900425C66 /* LaunchScreen.storyboard in Resources */,
+				650C67842071CA4C00425C66 /* test.rar in Resources */,
+				650C67572071C18900425C66 /* Assets.xcassets in Resources */,
+				650C67552071C18900425C66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650C67602071C18900425C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650C676B2071C18900425C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27918ACC5C416DFEF5176E07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaR解压/Pods-RaR解压-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6854F028EDF001B0B1B48FC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF25DDD38CB9FF18A340BA18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaR解压/Pods-RaR解压-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		650C67462071C18900425C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650C67522071C18900425C66 /* ViewController.m in Sources */,
+				650C675D2071C18900425C66 /* main.m in Sources */,
+				650C674F2071C18900425C66 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650C675E2071C18900425C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650C67672071C18900425C66 /* RaR__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650C67692071C18900425C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650C67722071C18900425C66 /* RaR__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		650C67642071C18900425C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 650C67492071C18900425C66 /* RaR解压 */;
+			targetProxy = 650C67632071C18900425C66 /* PBXContainerItemProxy */;
+		};
+		650C676F2071C18900425C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 650C67492071C18900425C66 /* RaR解压 */;
+			targetProxy = 650C676E2071C18900425C66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		650C67532071C18900425C66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650C67542071C18900425C66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		650C67582071C18900425C66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650C67592071C18900425C66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		650C67742071C18900425C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		650C67752071C18900425C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		650C67772071C18900425C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B9D8DD99D08DEBFB0CF124 /* Pods-RaR解压.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQQJ6HT6SA;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "RaR解压/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hengshikuangye.RaR--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		650C67782071C18900425C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3DC6EEBD1A55689648A056 /* Pods-RaR解压.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQQJ6HT6SA;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "RaR解压/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hengshikuangye.RaR--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		650C677A2071C18900425C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQQJ6HT6SA;
+				INFOPLIST_FILE = "RaR解压Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hengshikuangye.RaR--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaR解压.app/RaR解压";
+			};
+			name = Debug;
+		};
+		650C677B2071C18900425C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQQJ6HT6SA;
+				INFOPLIST_FILE = "RaR解压Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hengshikuangye.RaR--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaR解压.app/RaR解压";
+			};
+			name = Release;
+		};
+		650C677D2071C18900425C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQQJ6HT6SA;
+				INFOPLIST_FILE = "RaR解压UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hengshikuangye.RaR--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RaR解压";
+			};
+			name = Debug;
+		};
+		650C677E2071C18900425C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQQJ6HT6SA;
+				INFOPLIST_FILE = "RaR解压UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hengshikuangye.RaR--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RaR解压";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		650C67452071C18900425C66 /* Build configuration list for PBXProject "RaR解压" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650C67742071C18900425C66 /* Debug */,
+				650C67752071C18900425C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650C67762071C18900425C66 /* Build configuration list for PBXNativeTarget "RaR解压" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650C67772071C18900425C66 /* Debug */,
+				650C67782071C18900425C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650C67792071C18900425C66 /* Build configuration list for PBXNativeTarget "RaR解压Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650C677A2071C18900425C66 /* Debug */,
+				650C677B2071C18900425C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650C677C2071C18900425C66 /* Build configuration list for PBXNativeTarget "RaR解压UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650C677D2071C18900425C66 /* Debug */,
+				650C677E2071C18900425C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 650C67422071C18900425C66 /* Project object */;
+}

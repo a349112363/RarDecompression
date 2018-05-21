@@ -1,0 +1,1 @@
+../../../../SARUnArchiveANY/Frameworks/Unrar4iOS.framework/Headers/sha1.hpp
